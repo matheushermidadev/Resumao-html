@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Hermida">
+    <meta name="description" content="Resumos das aulas de HTML e CSS">
+    <meta name="keywords" content="html5, css, tecnologia">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Resumo das aulas de HTML</title>
+</head>
+<body>
+    <header>
+<nav>
+           
+            <ul>
+                <li id="lista-menu">Menu
+                      <ul id="menu-lista">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/fontes.html">fontes</a>
+                </li>
+                <li>
+                    <a href="./pages/display.html">display</a>
+                </li>
+                 <li>
+                    <a href="./pages/boxsizing.html">boxsizing</a>
+                </li>
+                 <li>
+                    <a href="./pages/position.html">position</a>
+                </li>
+                  <li>
+                    <a href="./pages/listas.html">listas</a>
+                </li>
+                  <li>
+                    <a href="./pages/overflow.html">overflow</a>
+                </li>
+                 <li>
+                    <a href="./pages/tabela.html">tabela</a>
+                </li>
+                <li>
+                    <a href="./pages/border-radius.html">border-radius</a>
+                </li>
+                <li>
+                    <a href="./pages/box-shadow.html">box-shadow</a>
+                </li>
+                <li>
+                    <a href="./pages/gradiente.html">gradiente</a>
+                </li>
+                  <li>
+                    <a href="./pages/transition.html">transition</a>
+                </li>
+                  <li>
+                    <a href="./pages/formulario.html">formularios</a>
+                </li>
+            </ul>
+                </li>
+            </ul>
+          
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="Nome">Nome completo</label>
+                <input type="text" id="Nome" placeholder="Digite teu nome completo" required>
+                
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="mail@example.com">
+                
+                <br>
+
+                <label for="">Número de filhos</label>
+                <input type="number" id="filhos" min="0" max="1000" step="0.5">
+                
+                <br>
+
+                <label for="nascimento">Data nascimento</label>
+                <input type="date" id="nascimento" min="1990-01-01" max="2009-12-31">
+                
+                <br>
+
+                <label for="sexo">Sexo:</label>
+                <input type="radio" id="sexo" name="sexo" value="M">Masculino
+                <input type="radio" id="sexo" name="sexo" value="F">Feminino
+                
+                <br>
+
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="0">Selecione</option>
+                    <option value="1">SP</option>
+                    <option value="2">RJ</option>
+                    <option value="3">MG</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Area de Interese</legend>
+                <label><input type="checkbox" name="html" value="html">HTML</label>
+                <label><input type="checkbox" name="javascript" value="javascript">JavaScript</label>
+                <label><input type="checkbox" name="css" value="CSS">CSS</label>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea style="resize: none;" name="msg" id="msg" cols="30" rows="10" maxlength="10"></textarea>
+                <br>
+                <textarea name="msg" id="msg" cols="30" rows="10" readonly>Texto super especial para pessoas especiais</textarea>
+                <br>
+                <label><input type="checkbox" checked>Li e aceito.</label>
+                
+                <br>
+
+                <input type="range" min="0" max="10" step="0.2"> <br>
+                <input type="time"><br>
+                <input type="color"><br>
+
+                <select size="5" multiple>
+                    <option>opcao1</option>
+                    <option>opcao2</option>
+                    <option>opcao3</option>
+                    <option>opcao4</option>
+                </select>
+            </fieldset>
+            <br>
+
+            <input type="submit" value="enviar">
+            <br>
+            <input type="reset" value="limpar">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
